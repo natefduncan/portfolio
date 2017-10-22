@@ -6,12 +6,14 @@ This is a python app that I created to replace a time tracking service I was pay
 
 ## Baby Names (R): 
 
-Takes all of the name counts for Males and Females back to 1880 and provides three possible outputs from the baby function. 
+Takes all of the name counts for Males and Females back to 1880 and provides three possible outputs from the baby function which takes the following inputs: 
 1. input
 2. fun (pop_num, pop_prop, ex_num)
 3. gender (M, F, both)
 4. year (c(start date, end date))
 
 Example: baby(input = "Nathan", fun = "pop_num", gender = "M", year = c(1880,2014))
+
+Data file came from Kaggle (https://www.kaggle.com/kaggle/us-baby-names)
 
 ## 
