@@ -16,4 +16,8 @@ Example: baby(input = "Nathan", fun = "pop_num", gender = "M", year = c(1880,201
 
 Data file came from Kaggle (https://www.kaggle.com/kaggle/us-baby-names)
 
-## 
+## March Madness Visualizations (R):
+
+Takes data from Kaggle (https://www.kaggle.com/c/march-machine-learning-mania-2016) and display some graphs using ggplot. 
+Two functions, seed_density and seed_matchup, will produce varying graphs based on inputs. Seed_density will show a density of teams seeds by round. Seed_matchup shows a graph of seed matchups by round. Examples of how these are used are provided in the code. 
+
